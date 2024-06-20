@@ -1,0 +1,23 @@
+1.Go to root trie,check char is available
+    1.if not available,add the char to dict and create a empty trie.
+    2.if available,go to the reference trie.
+2..if there are not char then make ur current trie flag as 1
+
+
+
+                                |  W,a  |0 |
+                                /	  \
+                               /	   \
+                            |o |1|	   |p  |0|
+                            /     		  \
+                           / 	   		   \
+                        |r ,o  |1|		   |p |0|
+                        /    \				  \
+                       /	  \				   \
+                    |l,d | 0|   |  |1|		  |l |0|
+                    /	\						 \
+                   /	 \						  \
+               |d| 0|	|s|0|					     |e |0|
+                 /			\						\
+                /			 \					     \
+            |    |  1|		|  |1|						|  |  1|
